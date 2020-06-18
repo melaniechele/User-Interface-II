@@ -48,8 +48,14 @@ table {
 	border-spacing: 0;
 }
 
+
+
+html {
+	height:100%;
+}
 body {
 	width:100%;
+	/* height:100%; */
 	font-size: 62.5%;
 	background-color: gray;
 }
@@ -163,6 +169,7 @@ a.navin{
 }
 
 
+
 .Contact {
 	display:flex;
 	flex-direction: column;
@@ -170,6 +177,11 @@ a.navin{
 	background-color:black;
 	padding:30px;
 	align-items: center;
+	margin-bottom:0;
+	position: relative;
+	bottom:0;
+	width: 100%;
+
 	
 }
 
@@ -223,7 +235,8 @@ a.navin{
 	  background: white;
 	  color:black;
   }
-  
+
+ 
 
   @media(max-width:800px) {
     .first-flex .name{
